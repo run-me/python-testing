@@ -1,11 +1,11 @@
 import unittest
-from testable_functions import sum_
+from testable_functions import addition
 
 
 class TestSum(unittest.TestCase):
 	def test_list_int(self):
 		data = [1, 2, 3]
-		result = sum(data)
+		result = addition.sum_(data)
 		self.assertEquals(result, 6)
 
 

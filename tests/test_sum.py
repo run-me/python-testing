@@ -1,5 +1,5 @@
 import unittest
-from functions import sum_
+from testable_functions import sum_
 
 
 class TestSum(unittest.TestCase):
